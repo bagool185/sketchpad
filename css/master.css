@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.container {
+  margin: 0 auto;
+}
+
+.square {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.colored {
+  background-color: yellow !important;
+}
