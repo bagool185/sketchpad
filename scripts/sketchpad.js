@@ -22,8 +22,8 @@ $(document).ready(() => {
   $('#size').change(function() {
     grid = $(this).val();
 
-    if (grid < 1 || grid > 100) {
-      $('.error').text("You shouldn't enter a value that's not 1 or 100")
+    if (grid < 1 || grid > 50) {
+      $('.error').text("You shouldn't enter a value that's not 1 or 50")
                  .fadeToggle(200);
 
       $('.error').delay(1000)
@@ -36,6 +36,7 @@ $(document).ready(() => {
 });
 
 function buildSquares() {
+
   for (let i = 0; i < grid; i++) {
     for (let j = 0; j < grid; j++) {
       $('.container').append('<div class="square"></div>');
