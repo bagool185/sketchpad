@@ -13,8 +13,8 @@
 }
 
 .square {
-  display: inline-block;
-  margin-top: -2px;
+  float: left;
+  clear: right;
 }
 
 .user-control {
@@ -25,4 +25,9 @@
 
 input[type="number"] {
   width: 50px;
+}
+
+button {
+  border: 0;
+  margin-left: 15px;
 }
